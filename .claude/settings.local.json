@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Read(//Users/dale/.claude/**)",
+      "Bash(mkdir -p /Users/dale/repo/coach/.claude/skills/coach/references)",
+      "Bash(mkdir -p /Users/dale/repo/coach/.claude/skills/coach/examples)",
+      "Bash(rm -rf /Users/dale/repo/coach/.claude/skills/coach)",
+      "Bash(rm -rf /Users/dale/repo/coach/.claude/skills)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
