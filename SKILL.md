@@ -1,6 +1,10 @@
 ---
 name: coach
-description: This skill should be used when the user wants to "learn a new topic", "study", "start a learning session", "continue learning", "review", "teach me", "help me understand", "learn", or any intent to acquire knowledge or skills about a subject. Implements Bloom's mastery-based learning methodology — one-on-one adaptive tutoring with persistent progress tracking. Covers ANY subject: programming, philosophy, science, languages, mathematics, history, creative skills. Use this skill whenever the user expresses intent to learn, study, or be taught something.
+description: >-
+  Mastery-based learning skill for "learn", "study", "teach me",
+  "help me understand", "review", or "continue learning" any subject.
+  Uses Bloom's method: active teaching, 80% mastery threshold, adaptive
+  pacing, persistent progress tracking. Subject-agnostic.
 ---
 
 # Coach — Mastery-Based Learning Skill
